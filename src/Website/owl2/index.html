@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="vendor/owl2/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="vendor/owl2/css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="vendor/owl2/css/style.css" />
+</head>
+<body>
+
+
+	<div class="container">
+		
+		<div class="owl-carousel owl-theme">
+			
+			 <div class="item">
+				 <img src="img/1.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/2.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/3.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/4.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/5.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/6.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/7.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/8.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/9.jpg" alt="" />
+			 </div>
+			 <div class="item">
+				 <img src="img/10.jpg" alt="" />
+			 </div>
+			 
+		</div>
+		
+		
+			 <button class="play">Play</button>
+			 <button class="stop">stop</button>
+		
+	</div>
+	
+	
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- ===== This File Is optional When we want to scroll mousel its work left and right ==== -->
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script>
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+				loop:true,
+				margin:10,
+				nav:false, // left right controls icons show when its true
+				autoplay:true, // autoplay
+				autoplayTimeout:2000, //autoplay timeout
+				autoplayHoverPause:true, // pause on mouse hover
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:3
+					},
+					1000:{
+						items:4
+					}
+				}
+			});
+			
+			// This Button Should Be Keep Out Of The Owl Carousel Carousel box
+			// we put the button and add the class play then its work
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay',[1000])
+			})
+			
+			
+			// we put the button and add the class stop then its work
+			$('.stop').on('click',function(){
+				owl.trigger('stop.owl.autoplay')
+			})
+			
+			
+			// Mouse wheel scroll caroulse with this we need to add one more library = jquery.mousewheel.min.js
+			owl.on('mousewheel', '.owl-stage', function (e) {
+				if (e.deltaY>0) {
+					owl.trigger('next.owl');
+				} else {
+					owl.trigger('prev.owl');
+				}
+				e.preventDefault();
+			});
+			
+			
+	</script>
+</body>
+</html>
