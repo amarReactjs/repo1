@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/repo1/static/css/main.45cd8e8b.css",
+    "main.js": "/repo1/static/js/main.d35ea785.js",
+    "static/js/787.2f49d6c5.chunk.js": "/repo1/static/js/787.2f49d6c5.chunk.js",
+    "static/media/vector_icon2.png": "/repo1/static/media/vector_icon2.84e1e8b63e26c6c4bb44.png",
+    "static/media/business_growth.png": "/repo1/static/media/business_growth.dcadf5933d2f10d3a41b.png",
+    "static/media/foot-logo.png": "/repo1/static/media/foot-logo.3b14641c79e36c53e9cc.png",
+    "static/media/logo.png": "/repo1/static/media/logo.3b14641c79e36c53e9cc.png",
+    "static/media/3.png": "/repo1/static/media/3.9d24ad3f490f15f6e621.png",
+    "static/media/4.png": "/repo1/static/media/4.70d9ebea1a783a295e2a.png",
+    "static/media/blog3.jpg": "/repo1/static/media/blog3.f20860be70ae740ebf86.jpg",
+    "static/media/blog1.jpg": "/repo1/static/media/blog1.06cfcfaac257c3031296.jpg",
+    "static/media/1.png": "/repo1/static/media/1.4cdc5be6f47b1059e7a6.png",
+    "static/media/blog6.jpg": "/repo1/static/media/blog6.e0838d9eadaf6b29fcfe.jpg",
+    "static/media/blog2.jpg": "/repo1/static/media/blog2.d1d827307cdafdff8ce3.jpg",
+    "static/media/5.png": "/repo1/static/media/5.a1bfd9d90bbbd54bd7a3.png",
+    "static/media/visions.png": "/repo1/static/media/visions.a99e0a61d627fd0417eb.png",
+    "static/media/2.png": "/repo1/static/media/2.34337dea8b0629cac775.png",
+    "static/media/blog5.jpg": "/repo1/static/media/blog5.0bf0e8909b2fad1ed1cb.jpg",
+    "static/media/blog4.jpg": "/repo1/static/media/blog4.a00153d6897adcbfe902.jpg",
+    "static/media/image235.png": "/repo1/static/media/image235.afcda4ff3ed9d20d87b5.png",
+    "static/media/enquire.png": "/repo1/static/media/enquire.14a38a44ae6e72edb64e.png",
+    "static/media/about_us.png": "/repo1/static/media/about_us.5424a9f7980cc36314ea.png",
+    "static/media/contact.png": "/repo1/static/media/contact.0a47bae77e07c203ca9f.png",
+    "static/media/background_growth.png": "/repo1/static/media/background_growth.09b527216cf1bfe11445.png",
+    "static/media/mission.png": "/repo1/static/media/mission.8360a16653b5795fabb9.png",
+    "static/media/header_vector3.png": "/repo1/static/media/header_vector3.c49904b34c53e391c717.png",
+    "static/media/6.png": "/repo1/static/media/6.584ac8550443882ce6bd.png",
+    "static/media/organisations.png": "/repo1/static/media/organisations.a85ce3218483bfc6fada.png",
+    "static/media/header_vector.png": "/repo1/static/media/header_vector.b95c500f4a5749fcf02c.png",
+    "static/media/insta.png": "/repo1/static/media/insta.cbdc4ae1386c0f4128d4.png",
+    "index.html": "/repo1/index.html",
+    "main.45cd8e8b.css.map": "/repo1/static/css/main.45cd8e8b.css.map",
+    "main.d35ea785.js.map": "/repo1/static/js/main.d35ea785.js.map",
+    "787.2f49d6c5.chunk.js.map": "/repo1/static/js/787.2f49d6c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45cd8e8b.css",
+    "static/js/main.d35ea785.js"
+  ]
+}
